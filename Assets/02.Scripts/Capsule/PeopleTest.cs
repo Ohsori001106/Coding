@@ -6,18 +6,18 @@ public class PeopleTest : MonoBehaviour
 {
     void Start()
     {
-        People people = new People("ÀÌ¼º¹Î", 25, 180.1f, "INFP");
+        People people = new People("ì´ì„±ë¯¼", 25, 180.1f, "INFP");
         people.SetAge(26);
         people.SetAge(-3);
 
-        people.Height = -10;        // set Á¢±ÙÀÚ »ç¿ë
-        Debug.Log(people.Height);   // get Á¢±ÙÀÚ »ç¿ë
+        people.Height = -10;        // set ì ‘ê·¼ì ì‚¬ìš©
+        Debug.Log(people.Height);   // get ì ‘ê·¼ì ì‚¬ìš©
 
 
-        people.MBTI = "AAA"; // ½Ç½À. MBTI¿¡ ´ëÇØ¼­ ÇÁ·ÎÆÛÆ¼¸¦ Àû¿ëÇØº¸¼¼¿ä.
+        people.MBTI = "AAA"; // ì‹¤ìŠµ. MBTIì— ëŒ€í•´ì„œ í”„ë¡œí¼í‹°ë¥¼ ì ìš©í•´ë³´ì„¸ìš”.
         Debug.Log(people.MBTI);
-        // people.Age = -3;  // ¹«°á¼ºÀÌ ±úÁ³´Ù!
-        // ¹«°á¼ºÀÌ¶õ µ¥ÀÌÅÍÀÇ Á¤È®¼º, ÀÏ°ü¼º, À¯È¿¼º
+        // people.Age = -3;  // ë¬´ê²°ì„±ì´ ê¹¨ì¡Œë‹¤!
+        // ë¬´ê²°ì„±ì´ë€ ë°ì´í„°ì˜ ì •í™•ì„±, ì¼ê´€ì„±, ìœ íš¨ì„±
 
         Debug.Log(people.GetName());
         Debug.Log(people.GetAge());
