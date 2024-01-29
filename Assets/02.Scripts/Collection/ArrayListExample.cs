@@ -18,6 +18,10 @@ public class ArrayListExample : MonoBehaviour
         // 데이터를 다루는 다양한 기능을 구조화하여 편하게 클래스로 구현해 놓은 것 
         // ArrayList, HashTable, Queue, Stack
 
+        // 컬렉션의 단점:
+        // "박싱/언박싱"으로 인해 성능적인 문제가 발생한다.
+        
+
 
         // ArrayList: 필요에 따라 크기가 동적으로 변하는 배열
         // - 배열과 달리 크기를 지정할 필요가 없다.

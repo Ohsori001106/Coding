@@ -24,7 +24,7 @@ public class TextLoadExample : MonoBehaviour
             string name = data[0];
             int age = int.Parse(data[1]);
             float birth = float.Parse(data[2]);
-            Debug.Log($"{name}({age})ÀÇ »ıÀÏ: {birth}");
+            Debug.Log($"{name}({age})ì˜ ìƒì¼: {birth}");
         }
         
     }
