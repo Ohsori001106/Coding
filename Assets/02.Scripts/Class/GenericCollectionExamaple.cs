@@ -21,10 +21,7 @@ public class GenericCollectionExamaple : MonoBehaviour
         myTable.Add("민예진", 13);
         myTable.Add("전민성", 23);
         myTable["이성민"] = 22;
-        for (int i = 0; i <myTable.Count; i++)
-        {
-            Debug.Log(myTable);
-        }
+        
 
         // 제네릭 컬렉션의 제한 조건은 박싱/언박싱으로부터 벗어날 수 있게 해준다.
         // List<int>는 int 자료형의 데이터만 처리하므로 object 형변환이 일어나지 않는다
