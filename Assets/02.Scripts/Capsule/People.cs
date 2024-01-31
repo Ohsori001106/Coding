@@ -5,6 +5,7 @@ using UnityEngine;
 public class People
 {
 
+    public int numm = 3;
 
     // 은닉화: 객체의 속성을 외부에서 직접 접근하지 못하도록 제한하는 개념
 
