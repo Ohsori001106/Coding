@@ -12,7 +12,7 @@ public class Exampel10 : MonoBehaviour
         // 문자: char
         // 문자열: string
 
-        char charValue1 = '김';
+        /*char charValue1 = '김';
         char charValue2 = '1';
         char charValue3 = '+';
 
@@ -20,7 +20,7 @@ public class Exampel10 : MonoBehaviour
 
         // 문자열을 다루는 방법
         // 2-1. 문자열 서식 string.format
-        string str0 = "안녕 김홍일";
+        string str0 = "안녕 김홍일";*/
         string myName = "전민성";
         string str1 = string.Format("{0} {1}", "안녕", myName);
         //첫 번째 변수로 문자열 개수와 서식을 지정

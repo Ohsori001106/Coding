@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System.Globalization;
 public class DelegateExample2 : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -14,7 +15,8 @@ public class DelegateExample2 : MonoBehaviour
 
         // C#의 배열이나 컬렉션에는 데이터를 쉽게 가공할 수 있는 Linq 기능이 있다.
         // Linq: 데이터들에게 질문을 던지고 그 결과를 받아오는 기능
-        int count = numvers.Count(IsBiggerThenZero);
+        // int count = numvers.Count(IsBiggerThenZero);
+        int count = numvers.Count(n=> n > 0);
         Debug.Log(count);
 
         /*int count = 0;
